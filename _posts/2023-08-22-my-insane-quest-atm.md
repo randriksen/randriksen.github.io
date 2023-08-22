@@ -1,5 +1,4 @@
-My Insane Quest ATM
-====================
+
 
 I have recently decided that I need to test something that I've claimed at job interviews:
 That my superpower is that i can pass almost any certification exam with just a few weeks of studying.
