@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "My Insane Quest ATM"
 date: 2023-08-22 22:50:00 -0000
 categories: Certifications AWS Azure Microsoft
 author: Ole
 tags: Certifications AWS Azure Microsoft
 ---
+
 
 I have recently decided that I need to test something that I've claimed at job interviews:
 That my superpower is that i can pass almost any certification exam with just a few weeks of studying.
