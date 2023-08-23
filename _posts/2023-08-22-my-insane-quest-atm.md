@@ -25,8 +25,9 @@ I took the Microsoft Certified Solutions Expert: Productivity, a certification t
 I took Cisco CCNA Security, and started on Cisco CCNP: Routing and Switching, which I never got around to finishing.
 I took Nutanix Certified Professional: NCP 5, which I've let expire. 
 I took Prince 2 Foundation.
+But while working there, Microsoft decided that Skype for Business was going to be replaced by Microsoft Teams. Which meant i was suddenly in charge of a dying platform.
 
-Then I got hired by Redpill Linpro in Norway to run their Microsoft solutions. 
+Lucky for me, I got reqruited by Redpill Linpro in Norway to run their Microsoft solutions. 
 While there I took AWS Certified Cloud Practitioner, AWS Certified Solutions Architect - Associate, and AWS Certified Solutions Architect - Professional.
 
 Last year i changed jobs again, and now i work for Rælingen and Enebakk municipalities in Norway, as responsible for the Microsoft solutions.
