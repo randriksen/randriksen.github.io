@@ -4,3 +4,17 @@ plugins:
 - jekyll-include-cache
 title: Randriksen
 description: Things that I find interesting, annoying or both.
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
