@@ -1,7 +1,6 @@
 ---
 layout: post
 date: 2023-08-22 22:50:00 -0000
-categories: Certifications AWS Azure Microsoft
 author: Ole
 tags: Certifications AWS Azure Microsoft
 ---
