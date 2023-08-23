@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Working on my new blog
 date: 2023-08-22 22:50:00 -0000
 author: Ole
