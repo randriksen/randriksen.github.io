@@ -9,6 +9,9 @@ I have recently decided that I need to test something that I've claimed at job i
 That my superpower is that i can pass almost any certification exam with just a few weeks of studying.
 Therefore my insane quest right now is going be: Try to pass 12 exams in the next 12 months!
 
+### My background history with certifications
+![Badges][{{site.url}}/pictures/certificationbadges.png]
+
 I have worked as a systems administrator since 2011.
 For the first job I had in this capacity, I was hired to be responsible for most of the IT infrastructure of a small hosting company (SysIt AS), that has since been acquired by a larger company. The infrastructure when i started was mainly based on VMware vSphere 3.5 and 4 on single hosts, running mostly Windows servers in a variety of versions and a network mostly consisting of Cisco Catalyst 2960 switches.
 
@@ -28,7 +31,7 @@ But while working there, Microsoft decided that Skype for Business was going to 
 Lucky for me, I got reqruited by Redpill Linpro in Norway to run their Microsoft solutions. 
 While there I took AWS Certified Cloud Practitioner, AWS Certified Solutions Architect - Associate, and AWS Certified Solutions Architect - Professional.
 
-Last year i changed jobs again, and now i work for Rælingen and Enebakk municipalities in Norway, as responsible for the Microsoft solutions.
+Last year i changed jobs again, and now i work for Rælingen and Enebakk municipalities in Norway, as again responsible for the Microsoft solutions - Another pattern spotted.
 
 
 This year I need to renew my AWS certifications, and I also plan to take some new certifications in the next 12 months:
