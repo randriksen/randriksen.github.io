@@ -36,12 +36,12 @@ Last year i changed jobs again, and now i work for Rælingen and Enebakk municip
 
 This year I need to renew my AWS certifications, and I also plan to take some new certifications in the next 12 months:
 
+- [ ] Microsoft 365 Certified: Fundamentals
 - [ ] AWS Certified Solutions Architect – Professional
 - [ ] AWS Certified DevOps Engineer – Professional
 - [ ] Microsoft Certified: Azure Administrator Associate
 - [ ] Microsoft Certified: Windows Server Hybrid Administrator Associate
 - [ ] Microsoft Certified: Azure Solutions Architect Expert
-- [ ] Microsoft 365 Certified: Fundamentals
 - [ ] Microsoft Certified: Power Platform Fundamentals
 - [ ] Microsoft Certified: Power BI Data Analyst Associate
 - [ ] Microsoft Certified: Azure Data Engineer Associate
