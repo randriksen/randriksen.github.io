@@ -1,6 +1,6 @@
 ---
-date: 2023-08-24 15:15:00 -0000
-author: Ole Rand-Hendriksen
+date: 2023-08-22 22:50:00 -0000
+author: Ole
 tags: Certifications AWS Azure Microsoft
 ---
 
