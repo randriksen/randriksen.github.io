@@ -7,7 +7,7 @@ tags: Certifications AWS Azure Microsoft
 
 I have recently decided that I need to test something that I've claimed at job interviews:
 That my superpower is that i can pass almost any certification exam with just a few weeks of studying.
-Therefore my insane quest right now is going be: Try to pass 12 exams in the next 12 months!
+Therefore my insane quest right now is going be: **Try to pass 12 exams in the next 12 months!**
 
 ### My background history with certifications
 ![Badges](/pictures/certificationbadges.png)
