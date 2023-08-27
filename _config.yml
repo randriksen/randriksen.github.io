@@ -5,6 +5,14 @@ plugins:
 title: Randriksen - Certifialble?
 description: Things that I find interesting, annoying or both.
 
+# Google Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-46KFSDJ0Y1"
+    anonymize_ip: false # default
+
+
 # Defaults
 defaults:
   # _posts
