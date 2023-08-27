@@ -16,8 +16,8 @@ This is after you've studied for it, and are ready to take the exam.
 ### Choosing the exam
 You should probably start out by choosing which exam you want to take.
 Different exams lead to different certifications, and there are many different certifications to choose from.
-Its usually not a bad idea to start with the lower level exams, and work your way up to the higher level ones.
-So any of the Microsoft fundamentals, or the AWS Cloud Practitioner are good places to start.
+Its usually not a bad idea to begin with the lower level exams, and work your way up to the higher level ones.
+So any of the Microsoft fundamentals, or the AWS Cloud Practitioner are good choices.
 But if you have a lot of experience, you can drop the fundamentals and go straight for something more advanced.
 
 ### The price of the exam
@@ -31,10 +31,10 @@ First of all there are several ways to get discounts, like:
 
 And apparently Microsoft employees get a discount as well.
 
-Also if you search a bit online, you can find awesome pages about free certifications, like this one: https://github.com/cloudcommunity/Free-Certifications
+Also if you search a bit online, you can find awesome pages about free certifications, like this one: [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications)
 
 I'm lucky enough to get a discount through my work, since my employer is part of an organization that has a deal with Microsoft. So I get a 50% discount on all Microsoft exams. That's a pretty good deal.
-I actually didn't know this before I tied my work email to my certification profile. 
+I actually didn't know this before I added my work email to my certification profile. 
 So if you have an email address from work or a school, you should try to tie it to your certification profile. You might get a discount.
 ![Discounts](/pictures/certification1/discounts.png)
 
