@@ -15,7 +15,7 @@ I found a few different ways to do this, but the ones that seemed easy and elega
 
 So after a little bit of trial and error, I found something that works for us:
 It's powershell scripts that we run in Intune, first a detection script:
-'''powershell
+```powershell
 # First get the active license object from the computer
 $license = get-ciminstance softwarelicensingproduct | where-object {$_.PartialProductKey}
 # check if the license object is a KMS license
@@ -26,17 +26,17 @@ if ($license.description -like "*KMS*") {
     # if it is not a KMS license, exit with error code 0
  exit 0
 }
-'''
+```
 
 And then a remediation script:
-'''powershell
+```powershell
 # Remove the active product key with slmgr (suppressed from output)
 slmgr //b /upk
 # Remove the name of the KMS server 
 slmgr //b /ckms
 # Add the new product key
 slmgr //b /ipk <product key>
-'''
+```
 
 
 If you need to do this:
