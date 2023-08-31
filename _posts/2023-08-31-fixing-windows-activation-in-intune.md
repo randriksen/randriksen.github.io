@@ -11,7 +11,7 @@ The process has been to take in all the client computers, grab all the autopilot
 In this process we accidentally installed them with a KMS license key. Which is a problem, since we're not going to use KMS for these clients.
 So we needed to change the license key to the correct one, and activate Windows.
 
-I found a few different ways to do this, but the ones that seemed easy and elegant (like this one: ![https://www.linkedin.com/pulse/windows-10-edition-upgrade-via-intune-noel-fairclough/](https://www.linkedin.com/pulse/windows-10-edition-upgrade-via-intune-noel-fairclough/)), just didn't work.
+I found a few different ways to do this, but the ones that seemed easy and elegant (like this one: [https://www.linkedin.com/pulse/windows-10-edition-upgrade-via-intune-noel-fairclough/](https://www.linkedin.com/pulse/windows-10-edition-upgrade-via-intune-noel-fairclough/)), just didn't work.
 
 So after a little bit of trial and error, I found something that works for us:
 It's powershell scripts that we run in Intune, first a detection script:
