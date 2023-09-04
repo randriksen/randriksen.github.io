@@ -58,8 +58,9 @@ This is basically the same as the "right way" but instead of using regular group
 * Choose "Security"
 * Give it a name
 * Click on "Add dynamic query"
-* Choose "Users"
-* Choose "Member of"
+* MemberOf isn't yet supported in the rule builder. Select Edit to write the rule in the Rule syntax box.
+  Example user rule: user.memberof -any (group.objectId -in ['groupId', 'groupId'])
+  Example device rule: device.memberof -any (group.objectId -in ['groupId', 'groupId'])
 * Choose the groups you want to assign the license to.
 * Click "Select"
 * Click "Create"
@@ -162,3 +163,10 @@ function license-leafgroups {
     }
 }
 ```
+
+And then you can use it like this:
+```powershell
+license-leafgroups -topGroupName "All students" -licenseName "IDENTITY_THREAT_PROTECTION_STUUSEBNFT"
+```
+
+That's it, hopefully someone can steal some code from me and save them a couple of minutes :D
