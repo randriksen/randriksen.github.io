@@ -1,3 +1,4 @@
+---
 title: "Dealing with Azure licenses and nested groups"
 date: 2023-09-04 02:00:00 -0000
 author: Ole
@@ -19,30 +20,30 @@ Instead, I have to assign the licenses to each class group.
 
 Now there are at least 4 ways to do this:
 
-##First the "wrong way":
+## First the "wrong way":
 
-*Go into each group in AzureAD
+* Go into each group in AzureAD
 ![assigning licenses the "wrong way"](/pictures/azure-licenses/wrong-way.png)
-*Click on "Licenses"
-*Click on "Assignments"
-*Click on "Add assignments"
-*Choose the licenses you want to assign
-*Click "Assign"
+* Click on "Licenses"
+* Click on "Assignments"
+* Click on "Add assignments"
+* Choose the licenses you want to assign
+* Click "Assign"
 
 The reason this is the "wrong way" is that it takes too long, and you might lose track of which groups you've assigned the licenses to.
 Lots of clickling, hard to keep track
 
 
 ## The "right way" (but still not the best way):
-*Go into licenses in AzureAD
+* Go into licenses in AzureAD
 ![assigning licenses the "right way"](/pictures/azure-licenses/right-way.png)
-*Click on "All products"
-*Click on the license you want to assign
-*Click on "Assign"
-*Click on "Users and groups"
-*Click on "Add assignments"
-*Choose the groups you want to assign the license to
-*Click "Assign"
+* Click on "All products"
+* Click on the license you want to assign
+* Click on "Assign"
+* Click on "Users and groups"
+* Click on "Add assignments"
+* Choose the groups you want to assign the license to
+* Click "Assign"
 
 
 This is better, but still not great. It's still a lot of clicking, and it's easier to keep track over which groups you've assigned the licenses to, but it's still not great. And if you click wrong during the selection of groups or users, it will blank out your selection, and you have to start over.
@@ -51,17 +52,17 @@ This is better, but still not great. It's still a lot of clicking, and it's easi
 ### The "slightly more dynamic way" (but still not the best way):
 This is basically the same as the "right way" but instead of using regular groups, you use a dynamic group. 
 [![this is a picture form microsoft learn](https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/media/groups-dynamic-rule-member-of/member-of-diagram.png)](https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/media/groups-dynamic-rule-member-of/member-of-diagram.png)
-*Go into AzureAD
-*Click on "Groups"
-*Click on "New group"
-*Choose "Security"
-*Give it a name
-*Click on "Add dynamic query"
-*Choose "Users"
-*Choose "Member of"
-*Choose the groups you want to assign the license to.
-*Click "Select"
-*Click "Create"
+* Go into AzureAD
+* Click on "Groups"
+* Click on "New group"
+* Choose "Security"
+* Give it a name
+* Click on "Add dynamic query"
+* Choose "Users"
+* Choose "Member of"
+* Choose the groups you want to assign the license to.
+* Click "Select"
+* Click "Create"
 
 This will give you a new group that has all the users that you need to assign the licenses to, as direct members, when the other groups change members, this one will too. So you only need to assign the licenses to this group.
 This is probably the smartest way to do it, but it's annoying for other reasons, like the fact that this way to do it is in [preview](https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-dynamic-rule-member-of)
@@ -75,7 +76,7 @@ It's far from perfect, and I'll probably come with some improvements later, but 
 It's implemented with the Microsoft Graph API, so you'll need to install the [Microsoft.Graph](https://www.powershellgallery.com/packages/Microsoft.Graph/1.6.2) module from the powershell gallery.
 
 The script takes two parameters: A group name and a license name/SkuPartNumber.
-The benefit of this way of doing it is that it will find all subgroups with direct user members and license them as well, so if one group has some direct members and also subgroups, it will make sure everyone inside are licensed.
+The benefit of this way of doing it is that it will find all subgroups with direct user members and license them as well, so if one group has some direct members and also subgroups, it will make sure everyone inside are licensed.u
 
 Also adding it to my [github repo](https://github.com/randriksen/powershell) for random powershell stuff
 
