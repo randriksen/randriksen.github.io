@@ -7,15 +7,15 @@ categories: powershell azure
 ---
 
 One of my current projects at work is to migrate as many as possible of our clients from on-prem clients, to Intune managed clients.
-We're also starting to utilize more of the cloud services that Microsoft offers, and for the Intune managed clients we're starting to utilize Microsoft defender for endpoint. And with this comes the need for licenses.
-And as anyone who has worked with licenses knows, that's always the fun part.
+We're also starting to utilize more of the cloud services that Microsoft offers, and for the Intune managed clients we're starting to utilize Microsoft defender for endpoint. And with this comes the need for licenses.  
+And as anyone who has worked with licenses knows, that's always the fun part.  
 Now, it's not exactly hard to deal with the licenses, but it can be very tedious and time consuming if you do it explicitly for each user.
 Luckily you don't need to do that. You can use groups to assign licenses to users. The bad thing with this is that you can't use nested groups. In AzureAD you need to assign the licenses to the groups that the users are in, and not the groups that the groups are in. (very annoying)
 And if you're coming from an on-prem AD scructure, you might be using nested groups A LOT.
 
 In my case, we're the IT department for a whole bunch of schools. Each school has several classes, and each class has several students. 
 So the case is this: All students need to get their **Microsoft 365 A5 Security for student use benefits** license. All students are in a group for their class, all classes in a "all students" group for their school, and all these groups are in a "all students" group for the entire municipality.
-If I could have just assigned the licenses to this group, that would have been awesome. But sadly, that doesn't work.
+If I could have just assigned the licenses to this group, that would have been awesome. But sadly, that doesn't work.  
 Instead, I have to assign the licenses to each class group.
 
 Now there are at least 4 ways to do this:
