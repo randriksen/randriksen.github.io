@@ -7,9 +7,9 @@ categories: powershell azure
 ---
 
 One of my current projects at work is to migrate as many as possible of our clients from on-prem clients, to Intune managed clients.
-We're also starting to utilize more of the cloud services that Microsoft offers, and for the Intune managed clients we're starting to utilize Microsoft defender for endpoint. And with this comes the need for licenses.  
-And as anyone who has worked with licenses knows, that's always the fun part.  
-Now, it's not exactly hard to deal with the licenses, but it can be very tedious and time consuming if you do it explicitly for each user.
+We're also starting to utilize more of the cloud services that Microsoft offers, and for the Intune managed clients we're starting to utilize Microsoft defender for endpoint. And with this comes the need for licenses.   
+And as anyone who has worked with licenses knows, that's always the fun part.   
+Now, it's not exactly hard to deal with the licenses, but it can be very tedious and time consuming if you do it explicitly for each user.  
 Luckily you don't need to do that. You can use groups to assign licenses to users. The bad thing with this is that you can't use nested groups. In AzureAD you need to assign the licenses to the groups that the users are in, and not the groups that the groups are in. (very annoying)
 And if you're coming from an on-prem AD scructure, you might be using nested groups A LOT.
 
