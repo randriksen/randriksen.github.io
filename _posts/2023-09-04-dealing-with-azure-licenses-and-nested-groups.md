@@ -7,10 +7,10 @@ categories: powershell azure
 ---
 
 One of my current projects at work is to migrate as many as possible of our clients from on-prem clients, to Intune managed clients.
-We're also starting to utilize more of the cloud services that Microsoft offers, and for the Intune managed clients we're starting to utilize Microsoft defender for endpoint. And with this comes the need for licenses.   
-And as anyone who has worked with licenses knows, that's always the fun part.   
+We're also starting to utilize more of the cloud services that Microsoft offers, and for the Intune managed clients we're starting to utilize Microsoft defender for endpoint. And with this comes the need for licenses.\n
+And as anyone who has worked with licenses knows, that's always the fun part.\n
 Now, it's not exactly hard to deal with the licenses, but it can be very tedious and time consuming if you do it explicitly for each user.  
-Luckily you don't need to do that. You can use groups to assign licenses to users. The bad thing with this is that you can't use nested groups. In AzureAD you need to assign the licenses to the groups that the users are in, and not the groups that the groups are in. (very annoying)
+Luckily you don't need to do that. You can use groups to assign licenses to users. The bad thing with this is that you can't use nested groups. In AzureAD you need to assign the licenses to the groups that the users are in, and not the groups that the groups are in. (very annoying)\n
 And if you're coming from an on-prem AD scructure, you might be using nested groups A LOT.
 
 In my case, we're the IT department for a whole bunch of schools. Each school has several classes, and each class has several students. 
@@ -49,7 +49,7 @@ Lots of clickling, hard to keep track
 This is better, but still not great. It's still a lot of clicking, and it's easier to keep track over which groups you've assigned the licenses to, but it's still not great. And if you click wrong during the selection of groups or users, it will blank out your selection, and you have to start over.
 
 
-### The "slightly more dynamic way" (but still not the best way):
+### The "slightly more dynamic way" (but still not the way that fits my thinking):
 This is basically the same as the "right way" but instead of using regular groups, you use a dynamic group. 
 [![this is a picture form microsoft learn](https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/media/groups-dynamic-rule-member-of/member-of-diagram.png)](https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/media/groups-dynamic-rule-member-of/member-of-diagram.png)
 * Go into AzureAD
