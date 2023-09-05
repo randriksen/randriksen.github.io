@@ -4,6 +4,7 @@ date: 2023-09-04 02:00:00 -0000
 author: Ole
 tags: Powershell Microsoft Azure Intune
 categories: Powershell Azure
+author_profile: true
 ---
 
 One of my current projects at work is to migrate as many as possible of our clients from on-prem clients, to Intune managed clients.

@@ -4,6 +4,7 @@ date: 2023-08-31 02:00:00 -0000
 author: Ole
 tags: Powershell Microsoft Intune 
 categories: Powershell Intune
+author_profile: true
 ---
 
 I'm currently working on a project where we're migrating everything we can of client computers to Intune.

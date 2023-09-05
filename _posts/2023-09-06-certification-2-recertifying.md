@@ -4,6 +4,7 @@ date: 2023-09-06 02:00:00 -0000
 author: Ole
 tags: Certifications AWS 
 categories: Certifications AWS
+author_profile: true
 ---
 
 ![expiration warning](/assets/images/certification2/email.png)
