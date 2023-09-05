@@ -2,8 +2,8 @@
 title: Certification 2 - Recertifying
 date: 2023-09-06 02:00:00 -0000
 author: Ole
-tags: certifications aws 
-categories: certifications
+tags: Certifications AWS 
+categories: Certifications AWS
 ---
 
 ![expiration warning](/assets/images/certification2/email.png)

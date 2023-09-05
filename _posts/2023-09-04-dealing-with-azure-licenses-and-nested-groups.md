@@ -2,8 +2,8 @@
 title: "Dealing with Azure licenses and nested groups"
 date: 2023-09-04 02:00:00 -0000
 author: Ole
-tags: powershell microsoft azure intune
-categories: powershell azure
+tags: Powershell Microsoft Azure Intune
+categories: Powershell Azure
 ---
 
 One of my current projects at work is to migrate as many as possible of our clients from on-prem clients, to Intune managed clients.

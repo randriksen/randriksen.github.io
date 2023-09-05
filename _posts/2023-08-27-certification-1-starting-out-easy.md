@@ -2,8 +2,8 @@
 title: Certification 1 - Starting out easy
 date: 2023-08-26 02:00:00 -0000
 author: Ole
-tags: certifications microsoft 
-categories: certifications
+tags: Certifications Microsoft 
+categories: Certifications
 ---
 
 As I said, I'm planning to take 12 certifications in 12 months. And I'm thinking I'll set the start month as August. That doesn't give me a lot of time to prepare for the first one, so I'm starting out easy with the [Microsoft 365 Certified: Fundamentals certification](https://learn.microsoft.com/en-us/certifications/microsoft-365-fundamentals/). Since it is a Fundamentals certification, it is pretty basic, but it's a good place to start.

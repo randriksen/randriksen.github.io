@@ -2,8 +2,8 @@
 title: "Fixing Windows Activation in Intune"
 date: 2023-08-31 02:00:00 -0000
 author: Ole
-tags: powershell microsoft intune 
-categories: powershell intune
+tags: Powershell Microsoft Intune 
+categories: Powershell Intune
 ---
 
 I'm currently working on a project where we're migrating everything we can of client computers to Intune.
