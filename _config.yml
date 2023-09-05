@@ -15,12 +15,12 @@ analytics:
 
 author:
   name     : "Ole"
-  #avatar   : "/assets/images/bio-photo.jpg"
+  avatar   : "/assets/images/bio-photo.jpg"
   bio      : "OS agnostic sysadmin that tends land in Microsoft territory. Father of 3. Reader of sci-fi and fantasy. Wearer of hoodies"
   location : "Norway"
 
 
-
+include: ["_pages"]
 
 # Defaults
 defaults:
