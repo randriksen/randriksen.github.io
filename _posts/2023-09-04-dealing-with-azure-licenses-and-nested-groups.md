@@ -23,7 +23,7 @@ Now there are at least 4 ways to do this:
 ## First the "wrong way":
 
 * Go into each group in AzureAD
-![assigning licenses the "wrong way"](/pictures/azure-licenses/wrong-way.png)
+![assigning licenses the "wrong way"](/assets/images/azure-licenses/wrong-way.png)
 * Click on "Licenses"
 * Click on "Assignments"
 * Click on "Add assignments"
@@ -36,7 +36,7 @@ Lots of clickling, hard to keep track
 
 ## The "right way" (but still not the best way):
 * Go into licenses in AzureAD
-![assigning licenses the "right way"](/pictures/azure-licenses/right-way.png)
+![assigning licenses the "right way"](/assets/images/azure-licenses/right-way.png)
 * Click on "All products"
 * Click on the license you want to assign
 * Click on "Assign"

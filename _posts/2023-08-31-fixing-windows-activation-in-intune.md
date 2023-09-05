@@ -43,7 +43,7 @@ If you need to do this:
 * Go to Intune -> Devices -> Windows -> Scripts
 * Create new script
 * Give it a name and description
-![Intune script](/pictures/windowsactivation/intunewindowsactivation.png)
+![Intune script](/assets/images/windowsactivation/intunewindowsactivation.png)
 * Add the detection script
 * Add the remediation script
 * Leave everything else as default

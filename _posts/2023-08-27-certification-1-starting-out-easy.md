@@ -36,7 +36,7 @@ Also if you search a bit online, you can find awesome pages about free certifica
 I'm lucky enough to get a discount through my work, since my employer is part of an organization that has a deal with Microsoft. So I get a 50% discount on all Microsoft exams. That's a pretty good deal.
 I actually didn't know this before I added my work email to my certification profile. 
 So if you have an email address from work or a school, you should try to tie it to your certification profile. You might get a discount.
-![Discounts](/pictures/certification1/discounts.png)
+![Discounts](/assets/images/certification1/discounts.png)
 
 Another thing you can do is ask if your work will cover the price of the exams.
 Employers often want their employees to get certified, so they might be willing to pay for it.
@@ -45,7 +45,7 @@ Especially if you work for a company that's in a partner program with Microsoft 
 
 ### Booking the exam
 Exams are usually quite easy to book. Back when I took my first certification you had to go to a testing center to take the exam. But now you can take most of them online. The booking process is usually quite straight forward for all the major vendors. For Microsoft you find the certification exam you want, and book it through the site. For me right now that is: https://learn.microsoft.com/en-us/certifications/exams/ms-900/. Scroll down the page and you find the area called "Schedule exam".
-![Schedule exam](/pictures/certification1/schedule.png)
+![Schedule exam](/assets/images/certification1/schedule.png)
 I usually use Pearson VUE for this, but you can apparently choose between them and Certiport. I've never used Certiport, so I can't say anything about them.
 Choose your preferred vendor and follow the instructions. 
 If you haven't already logged in, you'll be asked to sign in with your Microsoft account. If you don't have one, you can create one. It's free.
@@ -58,7 +58,7 @@ Then you'll be transfered to the exam booking page with the exam vendor.
 you can choose to go to a testing center, to do it online, or if you have a private acces code. 
 My last couple of exams I've done online.
 #### Online exam
-![Online exam](/pictures/certification1/online.png)
+![Online exam](/assets/images/certification1/online.png)
 It's easy and convenient. But there are things you need to think about.
 First of all, you need to have a webcam and a microphone.
 You also need to have a room where you can be alone, and where you can close the door.
@@ -75,7 +75,7 @@ I had my phone and my ID ready, and I had installed the proctoring software.
 I also used a computer without any form of VPN or other software that might interfere with the proctoring software.
 
 #### Testing center
-![Testing center](/pictures/certification1/testingcenter.png)
+![Testing center](/assets/images/certification1/testingcenter.png)
 For taking an exam at a testing center, you don't need to worry about having a computer with a webcam and microphone. But you still need to have your ID ready.
 You need to show up on time, show your ID and sign in. Then you'll be shown to a computer where you can take the exam.
 There's usually a locker where you can put your phone and other things you don't need during the exam.
@@ -86,17 +86,17 @@ You'll also often be given a whiteboard and a marker to take notes on, for thing
 
 The next page is the one where you'll be able to chose which language to take the exam in.
 I usually choose english, since it's the only one i really know well enough to take an exam in.
-![Languages](/pictures/certification1/languages.png)
+![Languages](/assets/images/certification1/languages.png)
 
 Then you'll have to agree on the code of conduct for the exam.
-![Code of conduct](/pictures/certification1/codeofconduct.png)
+![Code of conduct](/assets/images/certification1/codeofconduct.png)
 And after that, the exam policies.
 
 For the online exam, they will then ask what language you would like the proctor to speak. 
 I go with english here as well.
 The next question is about timezones.
 Then you can chose a time and date for the exam.
-![Time and date](/pictures/certification1/appointment.png)
+![Time and date](/assets/images/certification1/appointment.png)
 
 Finally you'll be asked to confirm the appointment and pay for the exam.
 If you have a voucher not tied to you certification profile, you can use it here.

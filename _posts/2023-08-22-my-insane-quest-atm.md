@@ -2,6 +2,7 @@
 date: 2023-08-22 22:50:00 -0000
 author: Ole
 tags: Certifications AWS Azure Microsoft
+categories: Certifications
 ---
 
 
@@ -10,7 +11,7 @@ That my superpower is that i can pass almost any certification exam with just a 
 Therefore my insane quest right now is going be: **Try to pass 12 exams in the next 12 months!**
 
 ### My background history with certifications
-![Badges](/pictures/certificationbadges.png)
+![Badges](/assets/images/certificationbadges.png)
 
 I have worked as a systems administrator since 2011.
 For the first job I had in this capacity, I was hired to be responsible for most of the IT infrastructure of a small hosting company (SysIt AS), that has since been acquired by a larger company. The infrastructure when i started was mainly based on VMware vSphere 3.5 and 4 on single hosts, running mostly Windows servers in a variety of versions and a network mostly consisting of Cisco Catalyst 2960 switches.
@@ -36,7 +37,7 @@ Last year i changed jobs again, and now i work for Rælingen and Enebakk municip
 
 This year I need to renew my AWS certifications, and I also plan to take some new certifications in the next 12 months:
 
-- [ ] Microsoft 365 Certified: Fundamentals
+- [x] Microsoft 365 Certified: Fundamentals
 - [ ] AWS Certified Solutions Architect – Professional
 - [ ] AWS Certified DevOps Engineer – Professional
 - [ ] Microsoft Certified: Azure Administrator Associate

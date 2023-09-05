@@ -6,7 +6,7 @@ tags: certifications aws
 categories: certifications
 ---
 
-![expiration warning](../pictures/certification2/email.png)
+![expiration warning](/assets/images/certification2/email.png)
 I just recieved an email from AWS that I need to recertify, or my AWS certifications will expire on December 4th.
 So I guess that's a sign from the universe that I should do that one next. 
 
