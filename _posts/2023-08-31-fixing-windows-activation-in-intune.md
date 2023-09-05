@@ -51,6 +51,8 @@ If you need to do this:
 * Assign it to the computers you want to run it on
 * Save it
   
+If you want to download the scripts, they can also be found in my [github repo](https://github.com/randriksen/powershell)
+
 That's it. 
 
 
