@@ -7,6 +7,8 @@ categories: Powershell Azure
 author_profile: true
 ---
 
+*updated 06.09.2023*
+
 One of my current projects at work is to migrate as many as possible of our clients from on-prem clients, to Intune managed clients.
 We're also starting to utilize more of the cloud services that Microsoft offers, and for the Intune managed clients we're starting to utilize Microsoft defender for endpoint. And with this comes the need for licenses.  
 And as anyone who has worked with licenses knows, that's always the fun part.  
@@ -50,7 +52,7 @@ Lots of clickling, hard to keep track
 This is better, but still not great. It's still a lot of clicking, and it's easier to keep track over which groups you've assigned the licenses to, but it's still not great. And if you click wrong during the selection of groups or users, it will blank out your selection, and you have to start over.
 
 
-### The "slightly more dynamic way" (but still not the way that fits my thinking):
+### The dynamic groups way (but with lots of limitation):
 This is basically the same as the "right way" but instead of using regular groups, you use a dynamic group. 
 [![this is a picture form microsoft learn](https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/media/groups-dynamic-rule-member-of/member-of-diagram.png)](https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/media/groups-dynamic-rule-member-of/member-of-diagram.png)
 * Go into AzureAD
@@ -67,9 +69,19 @@ This is basically the same as the "right way" but instead of using regular group
 * Click "Create"
 
 This will give you a new group that has all the users that you need to assign the licenses to, as direct members, when the other groups change members, this one will too. So you only need to assign the licenses to this group.
-This is probably the smartest way to do it, but it's annoying for other reasons, like the fact that this way to do it is in [preview](https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-dynamic-rule-member-of)
+This would probably have been the smartest way to do it, but it has a lot of limitations due to it being a feature in [preview](https://learn.microsoft.com/en-us/azure/active-directory/enterprise-users/groups-dynamic-rule-member-of)
+here's the official list of limitations:
+## Preview limitations
+* Each Azure AD tenant is limited to 500 dynamic groups using the memberOf attribute. memberOf groups do count towards the total dynamic group member quota of 5,000.
+* Each dynamic group can have up to 50 member groups.
+* When adding members of security groups to memberOf dynamic groups, only direct members of the security group become members of the dynamic group.
+* You can't use one memberOf dynamic group to define the membership of another memberOf dynamic groups. For example, Dynamic Group A, with members of group B and C in it, can't be a member of Dynamic Group D).
+* MemberOf can't be used with other rules. For example, a rule that states dynamic group A should contain members of group B and also should contain only users located in Redmond will fail.
+* Dynamic group rule builder and validate feature can't be used for memberOf at this time.
+* MemberOf can't be used with other operators. For example, you can't create a rule that states “Members Of group A can't be in Dynamic group B.”
 Also you need to know the group ID's of the groups you want to pull the members from, and that makes changing this group in the future a bit annoying, since you have to check which groups you already have in the query, and then add the new ones. And if you have a lot of groups, it's easy to lose track of which ones you've already added.
 
+I played around with a way to make dynamic groups out of nested groups with powershell. It's in the [github repo](https://github.com/randriksen/powershell). It doesn't work in my case due to the limitations on amounts of groups that can be used in a dynamic group, but it might work for you, if you have fewer groups to pull users from.
 
 ### The powershell way:
 This is the type of task I imagine that I'll have to do again and again (as long as I haven't found a better way to do it dynamically), so I'll automate it, or at least make a tool that I can use myself or get one of my colleagues to use and not have to worry about things being done wrong, or forgotten.
