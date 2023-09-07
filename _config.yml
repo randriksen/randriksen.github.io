@@ -5,6 +5,7 @@ plugins:
 - jekyll-feed
 title: Randriksen - Certifialble?
 description: Things that I find interesting, annoying or both.
+search: true
 
 # Google Analytics
 analytics:
