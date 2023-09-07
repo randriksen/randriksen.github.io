@@ -2,7 +2,7 @@
 title: Things i find interesting, annoying or both.
 date: 2023-08-22 22:50:00 -0000
 author: Ole
-layout: splash
+layout: home
 permalink: /
 ---
 
