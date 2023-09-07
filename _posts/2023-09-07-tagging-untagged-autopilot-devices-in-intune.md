@@ -13,9 +13,7 @@ The way I should have imported the devices, was to have a column in the CSV file
 Device Serial Number,Windows Product ID,Hardware Hash,Group Tag
 #serial,,"#long hash",#Tag 
 ```
-|Device Serial Number|Windows Product ID           |Hardware Hash|Group Tag                                    |
-|--------------------|-----------------------------|-------------|---------------------------------------------|
-|#serial             |                             |#long hash   |#Tag                                         |
+
 
 But my csv file didn't have the Group Tag column, so all the devices were imported without tags.
 If I had given this a little bit more thought before I imported the devices, and imported them with the PowerShell cmdlet: `Import-AutopilotCSV` I could have used the `-GroupTag` parameter to add the tag, but I didn't. I used the Intune portal to import the devices, and there is no way to add the tag there.
