@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Quest status"
+title: "Status for the Certification Quest
+"
 permalink: queststatus
 classes: wide
 ---
 
 
-## Status for the Certification Quest
 
 As of now I'm 1/12 done with my quest. 
 
@@ -19,3 +19,4 @@ As of now I'm 1/12 done with my quest.
 - [ ] [Microsoft Certified: Power Platform Fundamentals](https://learn.microsoft.com/en-us/certifications/power-platform-fundamentals/)
 - [ ] [Microsoft Certified: Power BI Data Analyst Associate](https://learn.microsoft.com/en-us/certifications/power-bi-data-analyst-associate/)
 - [ ] [Microsoft Certified: Azure Data Engineer Associate](https://learn.microsoft.com/en-us/certifications/azure-data-engineer/)
+
