@@ -3,6 +3,7 @@ title: My insane quest and other projects
 date: 2023-08-22 22:50:00 -0000
 author: Ole
 permalink: /
+author_profile: true
 ---
 
 I have recently decided that I need to test something that I've claimed at job interviews:
