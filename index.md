@@ -7,6 +7,7 @@ author_profile: true
 #header:
 layout: home
 #  image: /assets/images/certifiable.png
+classes: wide
 ---
 
 I have recently decided that I need to test something that I've claimed at job interviews:
