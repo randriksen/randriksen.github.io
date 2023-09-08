@@ -9,7 +9,7 @@ classes: wide
 
 As of now I'm 1/12 done with my quest. 
 
-- [x] [Microsoft 365 Certified: Fundamentals](https://learn.microsoft.com/en-us/certifications/microsoft-365-fundamentals/) - [Passed this on 2023-08-29](https://learn.microsoft.com/api/credentials/share/en-us/OleRandHendriksen-9681/E31F7C2CEA601457?sharingId=1CF91CEEF57A27BB) - [Post about it](/certifications/2023/08/29/1-out-of-12.html)
+- [x] ![Microsoft 365 Certified: Fundamentals](https://learn.microsoft.com/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg?branch=main) [Microsoft 365 Certified: Fundamentals](https://learn.microsoft.com/en-us/certifications/microsoft-365-fundamentals/) - [Passed this on 2023-08-29](https://learn.microsoft.com/api/credentials/share/en-us/OleRandHendriksen-9681/E31F7C2CEA601457?sharingId=1CF91CEEF57A27BB) - [Post about it](/certifications/2023/08/29/1-out-of-12.html)
 - [ ] [AWS Certified Solutions Architect – Professional](https://aws.amazon.com/certification/certified-solutions-architect-professional/?ch=sec&sec=rmg&d=1)
 - [ ] [AWS Certified DevOps Engineer – Professional](https://aws.amazon.com/certification/certified-solutions-architect-professional/?ch=sec&sec=rmg&d=1)
 - [ ] [Microsoft Certified: Azure Administrator Associate](https://learn.microsoft.com/en-us/certifications/azure-administrator/)
