@@ -1,13 +1,13 @@
 ---
-title: "Tagging untagged autopilot devices in Intune"
+title: "Tagging untagged Windows autopilot devices in Intune"
 date: 2023-09-07 02:00:00 -0000
 author: Ole
-tags: Powershell Microsoft Intune
-categories: Powershell Intune
+tags: Powershell Microsoft Intune Autopilot 
+categories: Powershell Intune Windows
 author_profile: true
 ---
 
-The other day I accidentally imported 800+ devices into Intune autopilot, without having tags in the CSV files. 
+The other day I accidentally imported 800+ devices into Windows autopilot and Intune, without having tags in the CSV files. 
 The way I should have imported the devices, was to have a column in the CSV file with a Group Tag column, like this:
 ```csv
 Device Serial Number,Windows Product ID,Hardware Hash,Group Tag
@@ -23,9 +23,9 @@ Now, dealing with this in the Intune portal is ok if you need to tag just a coup
 ### Powershell to the rescue!
 
 Luckily, PowerShell is one of the best friends you can have when it comes to dealing with large sets of data,
-and the Microsoft Graph API is a great way to interact with Intune.
+and the Microsoft Graph API is a great way to interact with Windows Autopilot and Intune.
 
-This little script will connect to the Microsoft Graph API, and get a list of all the Autopilot devices in Intune. It will then filter out all the devices that do not have a Group Tag or a Purchase Order Identifier, and then loop through the devices and set the Group Tag to a value you define.
+This little script will connect to the Microsoft Graph API, and get a list of all the Autopilot devices. It will then filter out all the devices that do not have a Group Tag or a Purchase Order Identifier, and then loop through the devices and set the Group Tag to a value you define.
 
 ```powershell	
 # Check if the mggraph module is already installed
