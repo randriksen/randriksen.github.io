@@ -15,5 +15,5 @@ I will probably write about my other projects as well.
 For fun and learning, I'm doing this with Jekyll and GitHub Pages.
 
 <h1>Latest Post</h1>
-{{ site.posts.last.content }}
+{{ site.posts.first.content }}
 
