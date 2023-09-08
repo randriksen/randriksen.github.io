@@ -1,6 +1,6 @@
 ---
 title: "Posts by Category"
-layout: categories
-permalink: /categories/
+layout: category
+permalink: /powershell/
 author_profile: true
 ---

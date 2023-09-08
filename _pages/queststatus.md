@@ -1,5 +1,5 @@
 ---
-layout: wide
+layout: splash
 title: "Quest status"
 permalink: queststatus
 ---
