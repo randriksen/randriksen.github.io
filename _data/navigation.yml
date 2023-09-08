@@ -5,5 +5,7 @@ main:
     url: /queststatus
   - title: "PowerShell"
     url: /powershell/
+  - title: "Certifications"
+    url: /certifications/
   #- title: "Tags"
   #  url: /tags/
