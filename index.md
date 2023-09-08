@@ -16,8 +16,6 @@ I will probably write about my other projects as well.
 For fun and learning, I'm doing this with Jekyll and GitHub Pages.
 
 <h1>Latest Post</h1>
-{% for post in site.posts limit:1 %}
-{% assign post = site.posts.first %}
-{% endfor %}
+{{ site.posts.first }}
 
 
