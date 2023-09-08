@@ -3,7 +3,7 @@ main:
     url: /
   - title: "Quest status"
     url: /queststatus
-  - title: "Categories"
-    url: /categories/
+  - title: "PowerShell"
+    url: /powershell/
   #- title: "Tags"
   #  url: /tags/
