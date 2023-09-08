@@ -5,6 +5,7 @@ author: Ole
 tags: PowerShell Microsoft 
 categories: PowerShell 
 author_profile: true
+classes: wide
 ---
 
 

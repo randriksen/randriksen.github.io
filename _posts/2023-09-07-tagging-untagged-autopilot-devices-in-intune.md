@@ -5,6 +5,7 @@ author: Ole
 tags: PowerShell Microsoft Intune Autopilot 
 categories: PowerShell Intune Windows
 author_profile: true
+classes: wide
 ---
 
 The other day I accidentally imported 800+ devices into Windows autopilot and Intune, without having tags in the CSV files. 

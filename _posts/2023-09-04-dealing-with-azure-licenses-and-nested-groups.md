@@ -5,6 +5,7 @@ author: Ole
 tags: PowerShell Microsoft Azure Intune
 categories: PowerShell Azure
 author_profile: true
+classes: wide
 ---
 
 *updated 06.09.2023*

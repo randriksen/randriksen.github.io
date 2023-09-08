@@ -5,6 +5,7 @@ author: Ole
 tags: PowerShell Microsoft Intune 
 categories: PowerShell Intune
 author_profile: true
+classes: wide
 ---
 
 I'm currently working on a project where we're migrating everything we can of client computers to Intune.

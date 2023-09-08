@@ -4,6 +4,7 @@ author: Ole
 tags: Certifications AWS Azure Microsoft
 categories: Certifications
 author_profile: true
+classes: wide
 ---
 
 

@@ -5,6 +5,7 @@ author: Ole
 tags: Certifications AWS 
 categories: Certifications AWS
 author_profile: true
+classes: wide
 ---
 
 ![expiration warning](/assets/images/certification2/email.png)
