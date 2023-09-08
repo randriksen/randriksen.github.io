@@ -2,6 +2,7 @@
 layout: splash
 title: "Quest status"
 permalink: queststatus
+classes: wide
 ---
 
 
