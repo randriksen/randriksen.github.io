@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: splash
 title: "Quest status"
 permalink: queststatus
 ---
@@ -9,7 +9,7 @@ permalink: queststatus
 
 As of now I'm 1/12 done with my quest. 
 
-- [x] [Microsoft 365 Certified: Fundamentals](https://learn.microsoft.com/api/credentials/share/en-us/OleRandHendriksen-9681/E31F7C2CEA601457?sharingId=1CF91CEEF57A27BB) - [Passed this on 2023-08-29](/_posts/2023-08-29-1-out-of-12.md)
+- [x] [Microsoft 365 Certified: Fundamentals](https://learn.microsoft.com/api/credentials/share/en-us/OleRandHendriksen-9681/E31F7C2CEA601457?sharingId=1CF91CEEF57A27BB) - [Passed this on 2023-08-29](/certifications/2023/08/29/1-out-of-12.html)
   
 - [ ] AWS Certified Solutions Architect – Professional
 - [ ] AWS Certified DevOps Engineer – Professional
