@@ -5,7 +5,7 @@ author: Ole
 permalink: /
 author_profile: true
 header:
-  image: /assets/images/certifiable.jpg
+  image: /assets/images/certifiable.png
 ---
 
 I have recently decided that I need to test something that I've claimed at job interviews:
