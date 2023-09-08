@@ -2,8 +2,8 @@
 title: "Dealing with Azure licenses and nested groups"
 date: 2023-09-04 02:00:00 -0000
 author: Ole
-tags: Powershell Microsoft Azure Intune
-categories: Powershell Azure
+tags: PowerShell Microsoft Azure Intune
+categories: PowerShell Azure
 author_profile: true
 ---
 

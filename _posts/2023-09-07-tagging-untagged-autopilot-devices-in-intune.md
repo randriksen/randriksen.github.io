@@ -2,8 +2,8 @@
 title: "Tagging untagged Windows autopilot devices in Intune"
 date: 2023-09-07 02:00:00 -0000
 author: Ole
-tags: Powershell Microsoft Intune Autopilot 
-categories: Powershell Intune Windows
+tags: PowerShell Microsoft Intune Autopilot 
+categories: PowerShell Intune Windows
 author_profile: true
 ---
 

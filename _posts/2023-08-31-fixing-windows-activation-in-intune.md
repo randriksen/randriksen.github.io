@@ -2,8 +2,8 @@
 title: "Fixing Windows Activation in Intune"
 date: 2023-08-31 02:00:00 -0000
 author: Ole
-tags: Powershell Microsoft Intune 
-categories: Powershell Intune
+tags: PowerShell Microsoft Intune 
+categories: PowerShell Intune
 author_profile: true
 ---
 
