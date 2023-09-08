@@ -4,7 +4,7 @@ plugins:
 - jekyll-include-cache
 - jekyll-feed
 title: Randriksen - Certifialble?
-description: Things that I find interesting, annoying or both.
+description: "My insane quest: Am I certifiable?"
 search: true
 
 # Google Analytics
