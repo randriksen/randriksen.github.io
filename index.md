@@ -1,10 +1,11 @@
 ---
 title: My insane quest and other projects
 date: 2023-08-22 22:50:00 -0000
-author: Ole
+#author: Ole
 permalink: /
 author_profile: true
 #header:
+layout: home
 #  image: /assets/images/certifiable.png
 ---
 
