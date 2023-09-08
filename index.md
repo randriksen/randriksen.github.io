@@ -17,7 +17,7 @@ For fun and learning, I'm doing this with Jekyll and GitHub Pages.
 
 <h1>Latest Post</h1>
 {% for post in site.posts limit:1 %}
-... Show the first post all big ...
+{% assign post = site.posts.first %}
 {% endfor %}
 
 
