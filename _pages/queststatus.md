@@ -1,7 +1,6 @@
 ---
 layout: single
-title: "Status for the Certification Quest
-"
+title: "Status for the Certification Quest"
 permalink: queststatus
 classes: wide
 ---
