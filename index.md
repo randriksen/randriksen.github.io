@@ -14,7 +14,6 @@ I will probably write about my other projects as well.
 
 For fun and learning, I'm doing this with Jekyll and GitHub Pages.
 
-{%- assign latest_post = site.posts[0] -%}
-
-Latest post: <a href="{{ latest_post.url }}">{{ latest_post.title }}</a>
+<h1>Latest Post</h1>
+{{ site.posts.last.content }}
 
