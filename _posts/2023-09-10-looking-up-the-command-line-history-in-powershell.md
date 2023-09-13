@@ -8,7 +8,6 @@ author_profile: true
 classes: wide
 ---
 
-
 Sometimes when I'm trying to solve a problem with Powershell, I'm not working in an IDE like vscode or ISE, but just in a regular PowerShell window. Which is fine, but when I then later need to find the things I did to solve the problem, I often have to go through the command line history.  That's pretty easy, when you remember something about the commands you were running. You can either use the `up arrow` or `F8` to go through the history, or if you're still in the same session, you can use the `Get-History` cmdlet (just `h` if you want to type less) to get the history. Or you can even search backwards through it by pressing `Ctrl+R` and start typing what you remember of the command, or `Ctrl-S` to search forward. And if you want to run a command from the history, you can use the `Invoke-History` cmdlet (just `r` if you want to type less).
 
 But what about when you're not in the same session anymore, `Get-History` only works for the current session. And if you need a big block of commands, going back through the history with the arrow keys or `F8` can be a bit tedious.  
@@ -39,8 +38,8 @@ function Split-History {
     foreach ($line in $historyContent) {
         # Check if the line ends with "``" (backtick), indicating a continuation of a multiline command
         if ($line.EndsWith("``")) {
-            # Remove the backtick and append the line to the current command
-            $currentCommand += $line.Substring(0, $line.Length - 1)
+            # Replace the backtick with line change and append the line to the current command
+            $currentCommand += $line.Replace("``", "`n")
         } else {
             # If the line doesn't end with a backtick, it's a standalone command
             $currentCommand += $line
@@ -96,4 +95,5 @@ function Invoke-ExtendedHistory {
     # Execute the command using Invoke-Expression
     Invoke-Expression -Command $line
 }
+
 ```
