@@ -7,5 +7,7 @@ main:
     url: /powershell/
   - title: "Certifications"
     url: /certifications/
+  - title: "About"
+    url: /about/
   #- title: "Tags"
   #  url: /tags/
