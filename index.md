@@ -21,7 +21,7 @@ For fun and learning, I'm doing this with Jekyll and GitHub Pages.
 
 <h1>Latest Post</h1>
     
-<h1>[{{ site.posts.first.title }}]({{ site.posts.first.url }})</h1>
-<h2>{{ site.posts.first.date | date: "%B %-d, %Y" }}</h2>
+<h1>[ {{ site.posts.first.title }} ]( {{ site.posts.first.url }} )</h1>
+{{ site.posts.first.date | date: "%B %-d, %Y" }}
 {{ site.posts.first.content }}
 
