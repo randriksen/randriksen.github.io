@@ -2,7 +2,7 @@
 layout: single
 title: "About me"
 permalink: about
-class: wide
+classes: wide
 author_profile: true
 ---
 
