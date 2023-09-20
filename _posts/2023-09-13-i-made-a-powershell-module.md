@@ -9,7 +9,7 @@ classes: wide
 ---
 
 
-![Powershell Gallery](../assets/images/commandlinehistory/powershellgallery.png)
+![Powershell Gallery](/assets/images/commandlinehistory/powershellgallery.png)
 So in my previous post ([Looking up the command line history in Powershell](https://www.randriksen.net/powershell/2023/09/10/looking-up-the-command-line-history-in-powershell.html)) I wrote about my script that I use to get the command line history from PowerShell. And I mentioned that I wanted to make it into a module. Well, I did. And I've published it to the [PowerShell Gallery](https://www.powershellgallery.com/packages/ExtendedHistory/1.0). So if you want to try it out, you can install it by running 
 ```powershell
 Install-Module -Name ExtendedHistory
