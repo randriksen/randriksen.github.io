@@ -3,6 +3,7 @@ layout: single
 title: "Status for the Certification Quest"
 permalink: queststatus
 classes: wide
+author_profile: true
 ---
 
 
