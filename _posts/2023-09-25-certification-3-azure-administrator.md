@@ -8,8 +8,7 @@ classes: wide
 ---
 
 
-For my next trick, I'll be pursuing the [Microsoft Certified: Azure Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/) certification.
-certification. I feel that's the logical next choice since I'm actually aiming to earn the [Microsoft Certified: Azure Solutions Architect Expert](https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/) certification.
+For my next trick, I'll be pursuing the [Microsoft Certified: Azure Administrator Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-administrator/) certification. I feel that's the logical next choice since I'm actually aiming to earn the [Microsoft Certified: Azure Solutions Architect Expert](https://learn.microsoft.com/en-us/credentials/certifications/azure-solutions-architect/) certification.
 
 To prepare for this, I plan to swiftly go through all the AZ-104 Learning paths on [Microsoft Learn](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-104/)
 of which there are 6, with a total of 51 modules! 
