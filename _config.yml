@@ -51,7 +51,7 @@ footer:
       url: https://mastodon.social/@Randriksen
     - label: Bluesky
       icon: "fab fa-fw fa-bluesky"
-      url: https://bsky.app/profile/randriksen.bsky.social
+      url: https://bsky.app/profile/randriksen.net
     - label: X/Twitter
       icon: "fab fa-fw fa-twitter"
       url: https://x.com/randriksen
