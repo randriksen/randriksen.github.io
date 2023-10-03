@@ -13,7 +13,7 @@ Since then, I've delved deeper into the problem because it's not only a problem 
 Both roles and licenses need to be assigned directly to the group that the user(s) is/are members of. If you have a lot of nested groups, you can't just assign the role/license to the top-level group and expect it to be inherited by the nested groups. This is both a good thing and a bad thing. It's good because it gives you a lot of control over who has what, but it's bad because it's a lot of work to assign the same role/license to a lot of groups.
 
 Last time, I made a script that would assign licenses to all the groups where there were user members in a set of nested groups.
-Now I've expanded on that script so that it will also assign user roles to enterprise applications. It can also be used to revoke licenses and user roles for enterprise applications. I even made it into a module that you can find on[Powershell Gallery](https://www.powershellgallery.com/packages/MGNestedGroups/)
+Now I've expanded on that script so that it will also assign user roles to enterprise applications. It can also be used to revoke licenses and user roles for enterprise applications. I even made it into a module that you can find on [Powershell Gallery](https://www.powershellgallery.com/packages/MGNestedGroups/)
 
 The module is called MGNestedGroups, and it contains 5 functions:
 
