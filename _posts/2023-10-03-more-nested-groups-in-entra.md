@@ -7,7 +7,7 @@ author_profile: true
 classes: wide
 ---
 
-![Nested Groups](/assets/images/nestedgroups/nestedgroups.drawio.png)
+![Nested Groups](/assets/images/nestedgroups/nestedgroups.png)
 About a month ago, I wrote about how I was dealing with the [licensing of nested groups in Entra ID/Azure AD](https://www.randriksen.net/powershell/azure/2023/09/04/dealing-with-azure-licenses-and-nested-groups.html). 
 Since then, I've delved deeper into the problem because it's not only a problem for licensing but also for assigning roles in Azure.
 Both roles and licenses need to be assigned directly to the group that the user(s) is/are members of. If you have a lot of nested groups, you can't just assign the role/license to the top-level group and expect it to be inherited by the nested groups. This is both a good thing and a bad thing. It's good because it gives you a lot of control over who has what, but it's bad because it's a lot of work to assign the same role/license to a lot of groups.
