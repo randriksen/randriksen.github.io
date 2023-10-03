@@ -14,6 +14,9 @@ About a month ago, I wrote about how I was dealing with the [licensing of nested
 Since then, I've delved deeper into the problem because it's not only a problem for licensing but also for assigning roles in Azure.
 Both roles and licenses need to be assigned directly to the group that the user(s) is/are members of. If you have a lot of nested groups, you can't just assign the role/license to the top-level group and expect it to be inherited by the nested groups. This is both a good thing and a bad thing. It's good because it gives you a lot of control over who has what, but it's bad because it's a lot of work to assign the same role/license to a lot of groups.
 
+Some might ask why I chose to deal with the nested groups at all, and don't make a dynamic group based on some attribute in or on-prem AD. And in an ideal world that might be the best solution. But with our current situation with a lot of legacy systems and inherited solutions, it's not an easy option. 
+We have so many different departments and locations, that the regular attributes are used for those purposes, and the extensionattributes are already in use for more things than they should be. So for now, the quickest and easiest way to make sure everyone gets the correct licenses and roles is to use the nested groups.
+
 Last time, I made a script that would assign licenses to all the groups where there were user members in a set of nested groups.
 Now I've expanded on that script so that it will also assign user roles to enterprise applications. It can also be used to revoke licenses and user roles for enterprise applications. I even made it into a module that you can find on [Powershell Gallery](https://www.powershellgallery.com/packages/MGNestedGroups/)
 
