@@ -40,6 +40,9 @@ defaults:
 
 footer:
   links:
+    - label: "Email"
+      icon: "/assets/images/planet-powershell.png"
+      url: https://www.planetpowershell.com/
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/randriksen
@@ -55,4 +58,5 @@ footer:
     - label: X/Twitter
       icon: "fab fa-fw fa-twitter"
       url: https://x.com/randriksen
+    
     
