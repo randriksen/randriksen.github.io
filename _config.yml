@@ -39,7 +39,6 @@ defaults:
       related: true
 
 footer:
-  ![Planet Powershell](/assets/images/planetpowershell.png)
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
