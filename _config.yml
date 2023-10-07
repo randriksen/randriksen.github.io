@@ -39,10 +39,8 @@ defaults:
       related: true
 
 footer:
+  ![Planet Powershell](/assets/images/planetpowershell.png)
   links:
-    - label: "Email"
-      icon: "/assets/images/planet-powershell.png"
-      url: https://www.planetpowershell.com/
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: https://github.com/randriksen
