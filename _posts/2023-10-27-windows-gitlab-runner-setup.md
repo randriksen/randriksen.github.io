@@ -21,7 +21,7 @@ Just a quick note: You should already have a GitLab server installed in your env
 ## Installing the GitLab Runner on Windows
 You need a Windows server. This can be virtually any server, whether new or old, virtual or physical (you can even reuse the old script servers that you're trying to replace). I used freshly installed Windows Server 2022 VM in our on-premises environment.
 
-Next, you should install GitLab Runner on the server. Official installation instructions can be found here: https://docs.gitlab.com/runner/install/windows.html. However, you don't necessarily need to follow them because I'll walk you through the installation here.
+Next, you should install GitLab Runner on the server. Official installation instructions can be found here: [https://docs.gitlab.com/runner/install/windows.html](https://docs.gitlab.com/runner/install/windows.html). However, you don't necessarily need to follow them because I'll walk you through the installation here.
 
 
 ![Where to find GitLab Runner installation instructions](/assets/images/gitlabrunner/adminrunner.png)
