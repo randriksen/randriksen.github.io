@@ -11,7 +11,7 @@ I've just released a new version of my [MGNestedGroups](https://github.com/randr
 It's a pretty niche module, but it's something I've found usefull at work, so I've improved it a little bit now.
 
 The only change is that the efficiency of the Get-MGSubGroups function is significantly faster now:
-For a fairly common nested group in my organization it used to take about 180 seconds to get the list of subgroups.
+For a fairly common nested group in my organization it used to take about 180 seconds to get the list of subgroups.  
 ![slow Get-MGSubGroups](/assets/images/nestedgroups/slowsubgroups.png)
 
 
