@@ -1,4 +1,3 @@
-
 ---
 title: "I'm Neurodivergent"
 author: Ole
