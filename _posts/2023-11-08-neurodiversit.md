@@ -6,7 +6,7 @@ categories: Neurodiversity
 author_profile: true
 classes: wide
 ---
-![NeurodiversIT](assets/images/neurodiversit/neurodiversit.png)
+![NeurodiversIT](https://www.randriksen.net/assets/images/neurodiversit/neurodiversit.png)
 
 If you know me, learning about my neurodivergence might not be a surprise, or perhaps it might.  I really don't know.  
 Understanding what people think or feel isn't exactly my forte, which, I've come to find, often goes hand-in-hand with being neurodivergent.
