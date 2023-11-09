@@ -6,7 +6,7 @@ categories: Neurodiversity
 author_profile: true
 classes: wide
 ---
-
+![NeurodiversIT](assets/images/neurodiversit/neurodiversit.png)
 
 If you know me, learning about my neurodivergence might not be a surprise, or perhaps it might.  I really don't know.  
 Understanding what people think or feel isn't exactly my forte, which, I've come to find, often goes hand-in-hand with being neurodivergent.
@@ -26,11 +26,11 @@ So why am I talking about this now? Next week, I'll be heading to Microsoft Igni
 
 However, I suspect I'm not alone in this. There are likely many other neurodiverse people in IT who've had parallel experiences to my own. It made me think that perhaps we could use some sort of symbol.
 
-So, I've designed a logo:
 
-![NeurodiversIT](assets/images/neurodiversit/neurodiversit.png)
+So, I've designed the logo that's at the top of this blog post.
 
 NeurodiversIT – we're neurodiverse and in IT.
+
 
 I'll have the logo on me, or my laptop. If you see me with it and want to talk, just come talk to me. It's a conversation starter, especially for anyone who gets the neurodivergent life or just wants to chat. I might even have an extra NeurodiversIT sticker.
 
