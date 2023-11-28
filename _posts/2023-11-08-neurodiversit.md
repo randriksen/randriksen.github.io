@@ -1,7 +1,7 @@
 ---
 title: "I'm Neurodivergent"
 author: Ole
-tags: Microsoft Ignite Neurodiversity
+tags: Microsoft Ignite Neurodiversity NeurodiversIT
 categories: Neurodiversity
 author_profile: true
 classes: wide
