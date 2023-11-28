@@ -10,7 +10,7 @@ Hi, I'm Ole, and I'm trying to find out if I'm as certifiable as I've claimed in
 
 I'm also [Neurodivergent](https://www.randriksen.net/neurodiversity/2023/11/08/neurodiversit.html)
 And I'm often wearing something with this logo:
-![NeurodiversIT](https://www.randriksen.net/neurodiversity/2023/11/08/neurodiversit.html)
+![NeurodiversIT](https://www.randriksen.net/assets/images/neurodiversit/neurodiversit.png)
 If you see me with it and want to talk, just come talk to me. It's a conversation starter, especially for anyone who gets the neurodivergent life or just wants to chat. I might even have an extra NeurodiversIT sticker.
 
 
