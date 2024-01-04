@@ -7,11 +7,11 @@ author_profile: true
 classes: wide
 ---
 
-Today, I decided to reinstall an old laptop so that my kids could have something to play Minecraft on. During this process, I remembered the time when I almost created a blog a long time ago. This was because I couldn't find any resources describing the entire process I needed back then, and it's still valid.
+Today, I decided to reinstall an old laptop so that my kids would have something to play Minecraft on. During this process, I had to do something that reminded me of the time I almost created a blog a long time ago, because I couldn't find anything that described the entire process I needed to do back then. The interesting thing is that the method I found back then is still valid.
 
-More than a decade ago, as a young informatics student in Oslo when Windows Vista was released, I decided to use it on all my computers. As a student, I had access to student licenses for most Microsoft products, so obtaining a valid installation wasn't an issue. The challenge was more technical. I had moved to a laptop without an optical drive, so I needed to install Windows via USB. This was before USB installations were common, and there were few guides available, so I had to figure it out myself.
+More than a decade ago, back when I was a young informatics student in Oslo, Windows Vista came out, and I decided I would use it on all my computers. As a student, I had access to student licenses for most of the Microsoft products, so getting a valid installation wasn't a problem. The problem was a much more technical one. I had already moved to a laptop with no optical drive, so I needed to get Windows installed via USB. Now, this was actually before this was a common practice, and there weren't a lot of descriptions about how to get this working, so I had to figure it out for myself.
 
-Transferring the data from the ISO to the USB stick was straightforward. However, the problem arose when the computer recognized the USB as a startup device but couldn't find anything to boot from. This was a strange issue for me at the time. I searched extensively and found a blog post that explained half the process. The USB didn't have the correct partition type. I had to repartition the USB key to create a primary partition and make it active. The process was quite simple:
+Getting the data from the ISO onto the USB stick wasn't a problem. That was a straightforward copy job. The problem came when the computer found the USB to start from but wouldn't find anything on it to boot from. That was a strange problem at the time for me. So, I Googled everything about it that I could find, and I remember I found a blog post that explained about half the process. The USB didn't have the right type of partition on it. I had to repartition the USB key to give it a primary partition and to make it active. This was all rather simple:
 
 ```cmd
 diskpart
@@ -26,20 +26,22 @@ active
 exit
 ```
 
-This assumes you only have one partition on your USB key. However, it still wouldn't boot into the Windows installer. 
+This all assumes that you only have one partition on your USB key.
 
-When I'm stuck, I delve deeper into the problem. On the Windows ISO, there was a 'boot' folder, which I explored. Inside, I found an EXE file named bootsect.exe, the tool I needed. The issue was that the USB drive had the wrong boot sector type. From what I recall, the boot sector type used by Windows changed between Windows XP and Windows Vista.
+But it still wouldn't boot into the Windows installer.
+
+So, I did what I do when I get stuck; I start looking deeper into things. On the Windows ISO, there was a folder called boot, so I started there. In that folder, there was an EXE file called bootsect.exe, which turned out to be the tool I needed to get things working. The problem was that the USB drive had the wrong boot sector type. And between Windows XP and Windows Vista, as far as I remember, they changed the type of boot sector Windows uses.
 
 ```cmd
 bootsect /nt60 x:
 ```
 
-This command was pivotal in enabling me to install Windows Vista on all my computers.
+This was the command that changed everything and made me able to install Windows Vista on all my computers.
 
-At the time, this saved me a lot of work, as I had managed to crash the old XP installation on my main computer. Getting it back up and running was crucial for my classes. I could finally relax and sleep that night.
+At the time, this saved me a whole lot of work, because I had somehow managed to crash the old XP installation on my main computer, so getting it back up and running was really important, since I needed it for classes. So my nerves calmed down, and I was able to sleep that night.
 
-I considered creating a blog to share this solution, as I hadn't found anyone else writing about it, but I never did. However, I'm trying to learn from my past mistakes, so I'm sharing it today.
+As mentioned, I considered making a blog just to post this solution because at the time I didn't find anyone else who had written about it, but I never did. But I'm trying to learn from my past mistakes, so I'm writing about it today.
 
-Nowadays, tools like the [official tool](https://www.microsoft.com/software-download/windows11) from Microsoft for Windows 11 or [Rufus](https://rufus.ie/en/) for almost any operating system make fixing USB installation media much easier.
+These days, there are tools that make it a lot easier to fix USB installation media. For Windows 11, you can download the [official tool](https://www.microsoft.com/software-download/windows11) from Microsoft, or you can use [Rufus](https://rufus.ie/en/) for almost any operating system you can find.
 
-Still, you can use the manual method I discovered in the days when Vista was new and shiny.
+But you can still use the manual method I found back in the days when Vista was something new and shiny.
