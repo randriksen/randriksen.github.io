@@ -6,7 +6,7 @@ classes: wide
 author_profile: true
 ---
 
-Hi, I'm Ole, and I'm trying to find out if I'm as certifiable as I've claimed in the past. I'm currently working as a Chief Adviser for Microsoft technologies in Rælingen kommune, a municipality in Norway. More than a decade ago, I studied programming at the University of Oslo, but for the last 12 years, I've been working in IT operations in almost all aspects and capacities. I'm one of those people who care more about solving the problem than about how it's solved, and I'm always looking for ways to automate and simplify my work.
+Hi, I'm Ole, and I'm trying to find out if I'm as certifiable as I've claimed in the past. I'm currently working as Solutions Architect in Lillestrøm Kommune, a municipality in Norway. More than a decade ago, I studied programming at the University of Oslo, but for the last 12 years, I've been working in IT operations in almost all aspects and capacities. I'm one of those people who care more about solving the problem than about how it's solved, and I'm always looking for ways to automate and simplify my work.
 
 I'm also [Neurodivergent](https://www.randriksen.net/neurodiversity/2023/11/08/neurodiversit.html)
 And I'm often wearing something with this logo:
