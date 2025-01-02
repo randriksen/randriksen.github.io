@@ -10,14 +10,14 @@ layout: home
 classes: wide
 ---
 
-I have recently decided that I need to test something that I've claimed at job interviews:
-That my superpower is that i can pass almost any certification exam with just a few weeks of studying.
+A while ago I decided that I need to test something that I've claimed at job interviews:
+That my superpower is that I can pass almost any certification exam with just a few weeks of studying.
 Therefore my insane quest right now is going be:  
-**Try to pass 12 exams in the next 12 months!**
+**Paused ----- Try to pass 12 exams in the next 12 months! ----- Paused**
 
-I will probably write about my other projects as well.
+I will write about my other projects as well.
 
-For fun and learning, I'm doing this with Jekyll and GitHub Pages.
+
 
 <h1>Latest Post</h1>
     
@@ -25,3 +25,5 @@ For fun and learning, I'm doing this with Jekyll and GitHub Pages.
 {{ site.posts.first.date | date: "%B %-d, %Y" }}
 {{ site.posts.first.content }}
 
+------
+For fun and learning, I'm doing this with Jekyll and GitHub Pages.
