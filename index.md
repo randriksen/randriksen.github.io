@@ -25,5 +25,3 @@ I will write about my other projects as well.
 {{ site.posts.first.date | date: "%B %-d, %Y" }}
 {{ site.posts.first.content }}
 
-------
-For fun and learning, I'm doing this with Jekyll and GitHub Pages.
