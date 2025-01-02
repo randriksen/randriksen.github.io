@@ -13,7 +13,7 @@ classes: wide
 A while ago I decided that I need to test something that I've claimed at job interviews:
 That my superpower is that I can pass almost any certification exam with just a few weeks of studying.
 Therefore my insane quest right now is going be:  
-**Paused ----- Try to pass 12 exams in the next 12 months! ----- Paused**
+**Paused ----- Try to pass a bunch of certification exams! ----- Paused**
 
 I will write about my other projects as well.
 
